@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="shortcut icon" href="./icons/youtube-fav.png" type="image/x-icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+   
+    background-color:  rgb(15, 15, 15);
+}
+        #results{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 50px;
+        }
+        .videoCard{
+            width: 30%;
+            padding: 20px;
+        }
+        @media screen and (max-width:500px) {
+            #results{
+                flex-direction: column;
+                align-items: center;
+            }
+            .videoCard{
+            width: 100%;
+            padding: 20px;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <section id="results">
+
+    </section>
+
+    <script src="searchresults.js"></script>
+</body>
+</html>

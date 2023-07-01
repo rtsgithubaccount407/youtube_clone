@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="shortcut icon" href="./icons/youtube-fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--   NAVBAR SECTION -->
+    <nav>
+        <div class="left">
+            <div class="hamburger"><img style="width: 20px;height: 20px; margin-right: 25px;" src="./icons/hamburgerS.png" alt="..."></div>
+            <div class="logoBox"><img src="./icons/youtube.png" alt=""></div>
+        </div>
+        <div class="middle">
+
+            <input id="search" placeholder="Search" type="search">
+            <button onclick="searchData()" id="searchBtn"><img style="width: 20px;height: 20px;" src="search.png" alt=""></button>
+            <img class="mic" src="./icons/mic-white-large.png" alt="...">
+
+        </div>
+        <div class="right">
+            <div class="cabap">:</div>
+            <button class="signInbtn" id="signIn">Sign in</button>
+        </div>
+    </nav>
+
+
+
+    <!--  MAIN CONTENT SECTION   -->
+    <section>
+
+        <aside>
+            <div style="background-color: rgb(27, 27, 27);" class="link">
+                <a href="#"><img style="width: 20px;height: 20px;margin-top: 4px;margin-right: 20px;" src="./icons/home.png" alt="...">Home</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="margin-top: 4px;width: 20px;height: 20px;margin-right: 20px;" src="./icons/youtube-shorts.png" alt="...">Sorts</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="margin-top: 4px;width: 20px;height: 20px;margin-right: 20px;" src="./icons/subscriptions.png" alt="...">Subscriptions</a>
+            </div>
+            <hr>
+            <div class="link">
+                <a href="#"><img style="margin-top: 4px;width: 20px;height: 20px;margin-right: 20px;" src="./icons/library.png" alt="...">Library</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="margin-top: 4px;width: 20px;height: 20px;margin-right: 20px;" src="./icons/history.png" alt="...">History</a>
+            </div>
+            <hr>
+            <div class="signupBox"><a href="#">Sign in to like videos, comment and subscribe.</a><button style="margin-top: 10px;" class="signInbtn"><img
+                        style="width: 20px;height: 20px;margin-right: 5px; margin-top: 4px;"
+                        src="./icons/profileBlue.png" alt="...">Sign in</button></div>
+            <hr>
+            <div class="link">
+                <a href="#"><img style="width: 20px;margin-top: 4px;height: 20px;margin-right: 20px;" src="./icons/trending.png" alt="...">Trending</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="width: 20px;margin-top: 4px;height: 20px;margin-right: 20px;" src="./icons/bag.png" alt="...">Sopping</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="width: 20px;margin-top: 4px;height: 20px;margin-right: 20px;" src="./icons/music-white.png" alt="...">Music</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="width: 20px;margin-top: 4px;height: 20px;margin-right: 20px;" src="./icons/movie.png" alt="...">Films</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="width: 20px;margin-top: 4px;height: 20px;margin-right: 20px;" src="./icons/news-white.png" alt="...">NEWS</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="width: 20px;margin-top: 4px;height: 20px;margin-right: 20px;" src="./icons/live.png" alt="...">Live</a>
+            </div>
+            <div class="link">
+                <a href="#"><img style="width: 20px;margin-top: 4px;height: 20px;margin-right: 20px;" src="./icons/joystick.png" alt="...">Gaming</a>
+            </div>
+        </aside>
+
+
+
+        <!--  MAIN VIDEO SECTION (RIGHT SIDE) -->
+        <main>
+
+
+            <!-- CATAGORY BUTTONS ROW SUB-SECTION -->
+            <div class="catagoryRow">
+                <a id="all" href="#">All</a>
+                <a href="#">Live</a>
+                <a href="#">Comedy</a>
+                <a href="#">Science</a>
+                <a href="#">Trending</a>
+                <a href="#">Development</a>
+                <a href="#">Education</a>
+                <a href="#">NEWS</a>
+                <a href="#">fun</a>
+                <a href="#">Sports</a>
+                <a href="#">Kids</a>
+                <a href="#">Popular</a>
+                <a href="#">Khalsa</a>
+                <a href="#">Cricket</a>
+                <a href="#">Bollywood</a>
+                <a href="#">Gaming</a>
+                <a href="#">History</a>
+
+            </div>
+
+
+            <div id="videoContainer">
+                <!-- ADDVERTISEMENT -->
+                <div class="bannerContainer">
+                    <img src="images.png" alt="img" class="banner">
+
+                </div>
+            </div>
+
+
+
+        </main>
+
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
